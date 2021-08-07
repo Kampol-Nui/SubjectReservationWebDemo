@@ -95,7 +95,7 @@
   export default {
     name: 'HelloWorld',
     props:{
-      msg : 'new message'
+      msg : String
     }
     data: () => ({
       ecosystem: [
